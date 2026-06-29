@@ -1,0 +1,30 @@
+[
+  {
+    "name": "api-prod-1",
+    "host": "httpbin.org",
+    "port": 443,
+    "protocol": "https",
+    "health_path": "/status/200"
+  },
+  {
+    "name": "api-prod-2",
+    "host": "httpbin.org",
+    "port": 443,
+    "protocol": "https",
+    "health_path": "/status/503"
+  },
+  {
+    "name": "slow-server",
+    "host": "httpbin.org",
+    "port": 443,
+    "protocol": "https",
+    "health_path": "/delay/6"
+  },
+  {
+    "name": "unreachable",
+    "host": "10.255.255.1",
+    "port": 8080,
+    "protocol": "http",
+    "health_path": "/health"
+  }
+]
