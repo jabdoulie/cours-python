@@ -1,0 +1,5 @@
+[
+  {"name": "api-prod-1", "host": "httpbin.org", "port": 443},
+  {"name": "api-prod-2", "host": "httpbin.org", "port": 443},
+  {"name": "unreachable", "host": "10.255.255.1", "port": 8080}
+]

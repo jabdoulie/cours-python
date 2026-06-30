@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Python Programming",
+    "author": "John Doe",
+    "isbn": "978-1234567890",
+    "available": true
+  },
+  {
+    "title": "FastAPI Guide",
+    "author": "Jane Smith",
+    "isbn": "978-0987654321",
+    "available": false
+  },
+  {
+    "title": "DevOps Handbook",
+    "author": "Ali Mokh",
+    "isbn": "978-1111111111",
+    "available": false
+  },
+  {
+    "title": "Docker Deep Dive",
+    "author": "Bob Lee",
+    "isbn": "978-2222222222",
+    "available": false
+  }
+]
